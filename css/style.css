@@ -1,0 +1,33 @@
+ul,li{
+		     list-style:none;
+		     }
+		     .container {
+		     	width: 600px;
+		     	margin: 0 auto;
+		     }
+		     .container li {
+		     	float: left;
+		     	margin: 10px 10px;
+		     }
+		     .container li img {
+		     	width: 240px;
+		     	height: 180px;
+		     }
+		     p {
+		     	float: left;
+		     }
+		     .img {
+				animation: zhuan .5s ease-in;
+			}
+			
+			@-webkit-keyframes zhuan {
+				0% {
+					opacity: 0;
+				}
+				50% {
+					opacity: 0.5;
+				}
+				100% {
+					opacity: 1;
+				}
+			}
